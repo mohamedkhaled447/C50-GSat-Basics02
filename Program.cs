@@ -96,13 +96,13 @@
             //Console.WriteLine(nullableYear.Value); [cite: 1]
             #endregion
 
-            #region Q12
-            string? reviewer = null; [cite: 2]
-Console.WriteLine(reviewer is null); [cite: 2]
-#endregion
+            #region Quesetion 12
+            //            string? reviewer = null; [cite: 2]
+            //Console.WriteLine(reviewer is null); [cite: 2]
+            #endregion
 
-#region Q13
-Book? bookQ13 = null; [cite: 2]
+            #region Q13
+            Book? bookQ13 = null; [cite: 2]
 string? titleQ13 = bookQ13?.Title; [cite: 2]
 Console.WriteLine(titleQ13); [cite: 2]
 #endregion
