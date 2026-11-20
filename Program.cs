@@ -24,27 +24,27 @@
             //Console.WriteLine(pagesQ03);
             #endregion
 
-           #region Quesetion 4
-//            try
-//            {
-//                int zero = 0;
-//                int result = 10 / zero; [cite: 1]
-//    Console.WriteLine(result);
-//            }
-//            catch (DivideByZeroException)
-//            {
-//                Console.WriteLine("Cannot divide by zero"); [cite: 1]
-//}
-//            finally
-//            {
-//                Console.WriteLine("Done"); [cite: 1]
-//}
-           #endregion
+            #region Quesetion 4
+            //            try
+            //            {
+            //                int zero = 0;
+            //                int result = 10 / zero; [cite: 1]
+            //    Console.WriteLine(result);
+            //            }
+            //            catch (DivideByZeroException)
+            //            {
+            //                Console.WriteLine("Cannot divide by zero"); [cite: 1]
+            //}
+            //            finally
+            //            {
+            //                Console.WriteLine("Done"); [cite: 1]
+            //}
+            #endregion
 
-            #region Q05
-            int pagesQ05 = 300; [cite: 1]
-double doublePages = pagesQ05; [cite: 1]
-Console.WriteLine(doublePages);
+            #region Quesetion 5
+            //            int pagesQ05 = 300; [cite: 1]
+            //double doublePages = pagesQ05; [cite: 1]
+            //Console.WriteLine(doublePages);
             #endregion
 
             #region Q06
