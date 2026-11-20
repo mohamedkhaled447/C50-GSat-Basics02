@@ -47,10 +47,10 @@
             //Console.WriteLine(doublePages);
             #endregion
 
-            #region Q06
-            double price = 49.99; [cite: 1]
-int intPrice = (int)price; [cite: 1]
-Console.WriteLine(intPrice);
+            #region Quesetion 6
+            //            double price = 49.99; [cite: 1]
+            //int intPrice = (int)price; [cite: 1]
+            //Console.WriteLine(intPrice);
             #endregion
 
             #region Q07
