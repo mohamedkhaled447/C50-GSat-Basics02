@@ -53,10 +53,10 @@
             //Console.WriteLine(intPrice);
             #endregion
 
-            #region Q07
-            string pagesText = "464"; [cite: 1]
-int convertedPages = Convert.ToInt32(pagesText); [cite: 1]
-Console.WriteLine(convertedPages);
+            #region Quesetion 7
+            //            string pagesText = "464"; [cite: 1]
+            //int convertedPages = Convert.ToInt32(pagesText); [cite: 1]
+            //Console.WriteLine(convertedPages);
             #endregion
 
             #region Q08
