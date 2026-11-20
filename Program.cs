@@ -75,18 +75,18 @@
             //}
             #endregion
 
-          #region Quesetion 9
-//            int pagesQ09 = 464; [cite: 1]
-//string pagesAsString = pagesQ09.ToString(); [cite: 1]
-//Console.WriteLine(pagesAsString.GetType()); [cite: 1]
-        #endregion
+            #region Quesetion 9
+            //            int pagesQ09 = 464; [cite: 1]
+            //string pagesAsString = pagesQ09.ToString(); [cite: 1]
+            //Console.WriteLine(pagesAsString.GetType()); [cite: 1]
+            #endregion
 
-#region Q10
-int copies = 100; [cite: 1]
-object boxedCopies = copies; [cite: 1]
-int unboxedCopies = (int)boxedCopies; [cite: 1]
-Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}"); [cite: 1]
-#endregion
+            #region Quesetion10
+//            int copies = 100; [cite: 1]
+//object boxedCopies = copies; [cite: 1]
+//int unboxedCopies = (int)boxedCopies; [cite: 1]
+//Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}"); [cite: 1]
+           #endregion
 
 #region Q11
 int? nullableYear = null; [cite: 1]
