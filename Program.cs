@@ -60,26 +60,26 @@
             #endregion
 
             #region Quesetion 8
-//            string yearText = "2023"; [cite: 1]
-//int year = int.Parse(yearText); [cite: 1]
-//Console.WriteLine(year);
+            //            string yearText = "2023"; [cite: 1]
+            //int year = int.Parse(yearText); [cite: 1]
+            //Console.WriteLine(year);
 
-//            string badText = "abc"; [cite: 1]
-//if (int.TryParse(badText, out int badNumber)) [cite: 1]
-//{
-//                Console.WriteLine(badNumber);
-//            }
-//else
-//            {
-//                Console.WriteLine("Invalid number"); [cite: 1]
-//}
-           #endregion
+            //            string badText = "abc"; [cite: 1]
+            //if (int.TryParse(badText, out int badNumber)) [cite: 1]
+            //{
+            //                Console.WriteLine(badNumber);
+            //            }
+            //else
+            //            {
+            //                Console.WriteLine("Invalid number"); [cite: 1]
+            //}
+            #endregion
 
-            #region Q09
-            int pagesQ09 = 464; [cite: 1]
-string pagesAsString = pagesQ09.ToString(); [cite: 1]
-Console.WriteLine(pagesAsString.GetType()); [cite: 1]
-#endregion
+          #region Quesetion 9
+//            int pagesQ09 = 464; [cite: 1]
+//string pagesAsString = pagesQ09.ToString(); [cite: 1]
+//Console.WriteLine(pagesAsString.GetType()); [cite: 1]
+        #endregion
 
 #region Q10
 int copies = 100; [cite: 1]
