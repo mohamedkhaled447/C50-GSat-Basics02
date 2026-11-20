@@ -18,28 +18,28 @@
             //Console.WriteLine(book.GetType()); [cite: 1]
             #endregion
 
-            # region Quesetion 3
+            #region Quesetion 3
             // Compile-time error[cite: 1]
             //          int pagesQ03 = int.Parse("464"); [cite: 1]
             //Console.WriteLine(pagesQ03);
-                       #endregion
-
-            #region Q04
-            try
-            {
-                int zero = 0;
-                int result = 10 / zero; [cite: 1]
-    Console.WriteLine(result);
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Cannot divide by zero"); [cite: 1]
-}
-            finally
-            {
-                Console.WriteLine("Done"); [cite: 1]
-}
             #endregion
+
+           #region Quesetion 4
+//            try
+//            {
+//                int zero = 0;
+//                int result = 10 / zero; [cite: 1]
+//    Console.WriteLine(result);
+//            }
+//            catch (DivideByZeroException)
+//            {
+//                Console.WriteLine("Cannot divide by zero"); [cite: 1]
+//}
+//            finally
+//            {
+//                Console.WriteLine("Done"); [cite: 1]
+//}
+           #endregion
 
             #region Q05
             int pagesQ05 = 300; [cite: 1]
