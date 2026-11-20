@@ -82,22 +82,22 @@
             #endregion
 
             #region Quesetion10
-//            int copies = 100; [cite: 1]
-//object boxedCopies = copies; [cite: 1]
-//int unboxedCopies = (int)boxedCopies; [cite: 1]
-//Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}"); [cite: 1]
-           #endregion
+            //            int copies = 100; [cite: 1]
+            //object boxedCopies = copies; [cite: 1]
+            //int unboxedCopies = (int)boxedCopies; [cite: 1]
+            //Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}"); [cite: 1]
+            #endregion
 
-#region Q11
-int? nullableYear = null; [cite: 1]
-Console.WriteLine(nullableYear.HasValue); [cite: 1]
+            #region Quesetion 11
+            //int? nullableYear = null; [cite: 1]
+            //Console.WriteLine(nullableYear.HasValue); [cite: 1]
 
-nullableYear = 2023; [cite: 1]
-Console.WriteLine(nullableYear.Value); [cite: 1]
-#endregion
+            //nullableYear = 2023; [cite: 1]
+            //Console.WriteLine(nullableYear.Value); [cite: 1]
+            #endregion
 
-#region Q12
-string? reviewer = null; [cite: 2]
+            #region Q12
+            string? reviewer = null; [cite: 2]
 Console.WriteLine(reviewer is null); [cite: 2]
 #endregion
 
