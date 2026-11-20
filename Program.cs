@@ -10,19 +10,19 @@
             //Console.WriteLine(objBook);
             #endregion
 
-           #region Quesetion2
+            #region Quesetion2
             //Book book = new Book { Title = "C# in Depth", Pages = 464 }; [cite: 1]
             //Console.WriteLine(book.ToString()); [cite: 1]
             //Console.WriteLine(book.Equals(book)); [cite: 1]
             //Console.WriteLine(book.GetHashCode()); [cite: 1]
-           //Console.WriteLine(book.GetType()); [cite: 1]
+            //Console.WriteLine(book.GetType()); [cite: 1]
             #endregion
 
-#region Q03
-// Compile-time error[cite: 1]
-int pagesQ03 = int.Parse("464"); [cite: 1]
-Console.WriteLine(pagesQ03);
-            #endregion
+            # region Quesetion 3
+            // Compile-time error[cite: 1]
+            //          int pagesQ03 = int.Parse("464"); [cite: 1]
+            //Console.WriteLine(pagesQ03);
+                       #endregion
 
             #region Q04
             try
