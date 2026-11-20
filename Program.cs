@@ -101,22 +101,22 @@
             //Console.WriteLine(reviewer is null); [cite: 2]
             #endregion
 
-            #region Q13
-            Book? bookQ13 = null; [cite: 2]
-string? titleQ13 = bookQ13?.Title; [cite: 2]
-Console.WriteLine(titleQ13); [cite: 2]
-#endregion
+            #region Quesetion  13
+            //            Book? bookQ13 = null; [cite: 2]
+            //string? titleQ13 = bookQ13?.Title; [cite: 2]
+            //Console.WriteLine(titleQ13); [cite: 2]
+            #endregion
 
-#region Q14
-Console.WriteLine(titleQ13 ?? "Untitled"); [cite: 2]
-titleQ13 ??= "Untitled"; [cite: 2]
-Console.WriteLine(titleQ13);
+            #region Q14
+            //Console.WriteLine(titleQ13 ?? "Untitled"); [cite: 2]
+            //titleQ13 ??= "Untitled"; [cite: 2]
+            //Console.WriteLine(titleQ13);
             #endregion
 
             #region Q15
-            string? name = "Ahmed"; [cite: 2]
-string confirmedName = name!; [cite: 2]
-Console.WriteLine(confirmedName);
+            //            string? name = "Ahmed"; [cite: 2]
+            //string confirmedName = name!; [cite: 2]
+            //Console.WriteLine(confirmedName);
             #endregion
 
 
