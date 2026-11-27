@@ -16,16 +16,20 @@ class Book
         {
             static void Main()
             {
-                // Question1
-                Book book = new Book { Title = "Dune", Pages = 464 };
-                object objBook = book;
-                Console.WriteLine(objBook);
+                #region Question1
+                // 1 .  Create a Book class with a Title (string) and Pages (int). Create a Book object and store it in a
+                ///Book book = new Book { Title = "Dune", Pages = 464 };
+                ///object objBook = book;
+                ///Console.WriteLine(objBook);
+                #endregion
 
-                // Q02. Using the Book class above, print the result of calling ToString(), Equals() (compare book with itself), GetHashCode(), and GetType() on book.
-                Console.WriteLine(book.ToString());
-                Console.WriteLine(book.Equals(book));
-                Console.WriteLine(book.GetHashCode());
-                Console.WriteLine(book.GetType());
+                #region Question 2
+                /// Q02. Using the Book class above, print the result of calling ToString(), Equals() (compare book with itself), GetHashCode(), and GetType() on book.
+               Console.WriteLine(book.ToString());
+               Console.WriteLine(book.Equals(book));
+               Console.WriteLine(book.GetHashCode());
+               Console.WriteLine(book.GetType());
+                #endregion
 
                 // Q03. Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
                 // int pages = "464"; -> Compile-time error
