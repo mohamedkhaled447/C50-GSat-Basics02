@@ -96,11 +96,11 @@ class Book
                 //}
                 #endregion
 
-                #region Question7
+                #region Question 9
                 // Q09. Given int pages = 464;, convert it into a string using ToString() and print its type using GetType() to prove it's now a string.
-                int bookPages = 464;
-                string pagesAsString = bookPages.ToString();
-                Console.WriteLine(pagesAsString.GetType());
+                //int bookPages = 464;
+                //string pagesAsString = bookPages.ToString();
+                //Console.WriteLine(pagesAsString.GetType());
                 #endregion
 
                 #region Question7
