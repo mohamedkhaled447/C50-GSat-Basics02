@@ -78,32 +78,38 @@ class Book
                 //int convertedPages = Convert.ToInt32(pagesText);
                 //Console.WriteLine(convertedPages);
                 #endregion
+
+                #region Question 8
                 // Q08. Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
-                string yearText = "2023";
-                int parsedYear = int.Parse(yearText);
-                Console.WriteLine(parsedYear);
+                //string yearText = "2023";
+                //int parsedYear = int.Parse(yearText);
+                //Console.WriteLine(parsedYear);
 
-                string badText = "abc";
-                if (int.TryParse(badText, out int badNumber))
-                {
-                    Console.WriteLine(badNumber);
-                }
-                else
-                {
-                    Console.WriteLine("Invalid number");
-                }
+                //string badText = "abc";
+                //if (int.TryParse(badText, out int badNumber))
+                //{
+                //    Console.WriteLine(badNumber);
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Invalid number");
+                //}
+                #endregion
 
+                #region Question7
                 // Q09. Given int pages = 464;, convert it into a string using ToString() and print its type using GetType() to prove it's now a string.
                 int bookPages = 464;
                 string pagesAsString = bookPages.ToString();
                 Console.WriteLine(pagesAsString.GetType());
+                #endregion
 
+                #region Question7
                 // Q10. Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
                 int copies = 100;
                 object boxedCopies = copies;
                 int unboxedCopies = (int)boxedCopies;
                 Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}");
-
+                #endregion
                 // Q11. Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
                 int? year = null;
                 Console.WriteLine(year.HasValue);
