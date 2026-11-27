@@ -103,12 +103,12 @@ class Book
                 //Console.WriteLine(pagesAsString.GetType());
                 #endregion
 
-                #region Question7
+                #region Question10
                 // Q10. Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
-                int copies = 100;
-                object boxedCopies = copies;
-                int unboxedCopies = (int)boxedCopies;
-                Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}");
+                //int copies = 100;
+                //object boxedCopies = copies;
+                //int unboxedCopies = (int)boxedCopies;
+                //Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}");
                 #endregion
                 // Q11. Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
                 int? year = null;
