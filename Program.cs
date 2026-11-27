@@ -57,11 +57,12 @@ class Book
                 //    Console.WriteLine("Done");
                 //}
                 #endregion
-
+                #region Question 5
                 // Q05. Declare an int pages = 300; then store it in a double variable without using a cast.
                 int pages = 300;
                 double doublePages = pages;
                 Console.WriteLine(doublePages);
+                #endregion
 
                 // Q06. Declare a double price = 49.99; then convert it into an int using a cast.
                 double price = 49.99;
