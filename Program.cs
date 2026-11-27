@@ -74,9 +74,9 @@ class Book
 
                 #region Question7
                 // Q07. Given string pagesText = "464";, convert it into an int using the Convert class.
-                string pagesText = "464";
-                int convertedPages = Convert.ToInt32(pagesText);
-                Console.WriteLine(convertedPages);
+                //string pagesText = "464";
+                //int convertedPages = Convert.ToInt32(pagesText);
+                //Console.WriteLine(convertedPages);
                 #endregion
                 // Q08. Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
                 string yearText = "2023";
