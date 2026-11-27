@@ -110,13 +110,16 @@ class Book
                 //int unboxedCopies = (int)boxedCopies;
                 //Console.WriteLine($"Boxed: {boxedCopies}, Unboxed: {unboxedCopies}");
                 #endregion
+
+                #region Question11
                 // Q11. Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
-                int? year = null;
-                Console.WriteLine(year.HasValue);
+                //int? year = null;
+                //Console.WriteLine(year.HasValue);
+                //year = 2023;
+                //Console.WriteLine(year.Value);
+                //#endregion
 
-                year = 2023;
-                Console.WriteLine(year.Value);
-
+                #region Question10
                 // Q12. Declare a string? reviewer = null;. Print whether it is null.
                 string? reviewer = null;
                 Console.WriteLine(reviewer == null);
